@@ -8,7 +8,7 @@
         "name" : "Ilyas Salikhov"
     }],
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.2",
         "symfony/framework-bundle" : "^4.0|^5.0|^6.0|^7.0",
         "symfony/yaml": "^4.0|^5.0|^6.0|^7.0"
     },
