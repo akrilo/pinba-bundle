@@ -7,7 +7,7 @@ class Redis
     public function addWatchedServer(
         string $host,
         int $port = 6379,
-        float $timeout = 5,
+        float $timeout = 5
     ): void {
     }
 
@@ -22,7 +22,7 @@ class Redis
     {
     }
 
-    public function get(string $key): mixed
+    public function get(string $key)
     {
     }
 
@@ -31,55 +31,67 @@ class Redis
      *
      * @return \Redis|array<mixed>|false
      */
-    public function mGet(array $keys): \Redis|array|false
+    public function mGet(array $keys)
     {
     }
 
-    public function exists(mixed $key, mixed ...$otherKeys): \Redis|int|bool
+    public function exists($key, ...$otherKeys)
     {
     }
 
-    public function set(string $key, mixed $value, mixed $options = null): \Redis|string|bool
+    public function set(string $key, $value, $options = null)
     {
     }
 
-    public function setex(string $key, int $expire, mixed $value): mixed
+    public function setex(string $key, int $expire, $value)
     {
     }
 
     /**
      * @param array<string, mixed> $keyValues
      */
-    public function mSetNx(array $keyValues): \Redis|bool
+    public function mSetNx(array $keyValues)
     {
     }
 
-    public function expire(string $key, int $expire, ?string $mode = null): \Redis|bool
+    public function expire(string $key, int $expire, ?string $mode = null)
     {
     }
 
     /**
      * @return \Redis|array<mixed>|false
      */
-    public function exec(): \Redis|array|false
+    public function exec()
     {
     }
 
     /**
      * @param array<int, string>|string $key
      */
-    public function delete(array|string $key, string ...$otherKeys): \Redis|int|false
+    public function delete($key, string ...$otherKeys)
     {
     }
 
     /**
      * @return \Redis|array<mixed>|false
      */
-    public function sMembers(string $key): \Redis|array|false
+    public function sMembers(string $key)
     {
     }
 
-    public function sAdd(string $key, mixed $value, mixed ...$otherValues): \Redis|int|false
+    public function sAdd(string $key, $value, ...$otherValues)
+    {
+    }
+
+    public function multi($value = null)
+    {
+    }
+
+    public function select(int $dbindex)
+    {
+    }
+
+    public function flushDB($async = null)
     {
     }
 }

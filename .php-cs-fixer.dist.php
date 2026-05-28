@@ -23,6 +23,7 @@ $rules = [
     // exceptions
     'single_line_throw' => false,
     'modernize_strpos' => false,
+    'trailing_comma_in_multiline' => false,
 
     // php file
     'concat_space' => ['spacing' => 'one'],

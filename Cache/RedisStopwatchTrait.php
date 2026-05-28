@@ -14,7 +14,7 @@ trait RedisStopwatchTrait
     public function addWatchedServer(
         $host,
         $port = 6379,
-        $timeout = 5,
+        $timeout = 5
     ): void {
         $this->serverName = $host . (6379 == $port ? '' : ':' . $port);
 
