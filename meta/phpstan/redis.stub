@@ -1,0 +1,85 @@
+<?php
+
+namespace Intaro\PinbaBundle\Cache;
+
+class Redis
+{
+    public function addWatchedServer(
+        string $host,
+        int $port = 6379,
+        float $timeout = 5,
+    ): void {
+    }
+
+    public function setStopwatch(object $stopwatch): void
+    {
+    }
+
+    /**
+     * @param array<string, mixed> $tags
+     */
+    public function setStopwatchTags(array $tags): void
+    {
+    }
+
+    public function get(string $key): mixed
+    {
+    }
+
+    /**
+     * @param array<int, string> $keys
+     *
+     * @return \Redis|array<mixed>|false
+     */
+    public function mGet(array $keys): \Redis|array|false
+    {
+    }
+
+    public function exists(mixed $key, mixed ...$otherKeys): \Redis|int|bool
+    {
+    }
+
+    public function set(string $key, mixed $value, mixed $options = null): \Redis|string|bool
+    {
+    }
+
+    public function setex(string $key, int $expire, mixed $value): mixed
+    {
+    }
+
+    /**
+     * @param array<string, mixed> $keyValues
+     */
+    public function mSetNx(array $keyValues): \Redis|bool
+    {
+    }
+
+    public function expire(string $key, int $expire, ?string $mode = null): \Redis|bool
+    {
+    }
+
+    /**
+     * @return \Redis|array<mixed>|false
+     */
+    public function exec(): \Redis|array|false
+    {
+    }
+
+    /**
+     * @param array<int, string>|string $key
+     */
+    public function delete(array|string $key, string ...$otherKeys): \Redis|int|false
+    {
+    }
+
+    /**
+     * @return \Redis|array<mixed>|false
+     */
+    public function sMembers(string $key): \Redis|array|false
+    {
+    }
+
+    public function sAdd(string $key, mixed $value, mixed ...$otherValues): \Redis|int|false
+    {
+    }
+}

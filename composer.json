@@ -8,13 +8,13 @@
         "name" : "Ilyas Salikhov"
     }],
     "require": {
-        "php": ">=8.2",
+        "php": ">=7.4",
         "symfony/framework-bundle" : "^4.0|^5.0|^6.0|^7.0",
         "symfony/yaml": "^4.0|^5.0|^6.0|^7.0"
     },
     "require-dev": {
         "doctrine/dbal": "^2|^3|^4",
-        "nyholm/symfony-bundle-test": "^3.1",
+        "nyholm/symfony-bundle-test": "^2.0|^3.1",
         "phpunit/phpunit": "^8.5|^9.5",
         "symfony/phpunit-bridge": "^5.0|^6.0|^7.0",
         "symfony/config": "^4.4|^5.0|^6.0|^7.0",
@@ -33,7 +33,7 @@
         "symfony/var-exporter": "^4.4|^5.0|^6.0|^7.0",
         "symfony/var-dumper": "^4.4|^5.0|^6.0|^7.0",
         "psr/log": "~1.0|^2|^3",
-        "friendsofphp/php-cs-fixer": "^3.95",
+        "friendsofphp/php-cs-fixer": "^3.4",
         "twig/twig": "^v2.14 || ^3.0",
         "symfony/twig-bundle": "^4.4|^5.0|^6.0|^7.0",
         "symfony/twig-bridge": "^4.4|^5.0|^6.0|^7.0",
